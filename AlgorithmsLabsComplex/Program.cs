@@ -39,7 +39,7 @@ namespace AlgorithmsLabsComplex
 
             tree.ShowInDebug();
             Console.ReadLine();
-
+            tree.SortByFunction(tree.sortFunc);
             //tree.OrderTreeBy(x =>
             //{
             //    if (double.TryParse(x.Number, out double r))
